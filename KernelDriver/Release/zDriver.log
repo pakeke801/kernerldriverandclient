@@ -1,0 +1,12 @@
+﻿  Building 'zDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping Release\zDriver.inf
+  Stamping [Version] section with DriverVer=11/24/2020,16.38.10.539
+H:\Dev_Downloads\xxx\BlastMenuV3_WPVM\zDriver\zDriver.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1.
+  Assembling DispatchHook.asm...
+DispatchHook.asm(1): error A2013: .MODEL must precede this directive
+DispatchHook.asm(2): error A2034: must be in segment block : DispatchHook
+DispatchHook.asm(3): error A2034: must be in segment block
+DispatchHook.asm(4): error A2034: must be in segment block
+DispatchHook.asm(5): error A2034: must be in segment block
+DispatchHook.asm(6): fatal error A1010: unmatched block nesting : DispatchHook
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Release\DispatchHook.obj" /W3 /errorReport:prompt  /TaDispatchHook.asm" exited with code 1.

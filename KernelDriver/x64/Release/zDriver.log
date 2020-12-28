@@ -1,0 +1,16 @@
+﻿  Building 'zDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\zDriver.inf
+  Stamping [Version] section with DriverVer=11/24/2020,20.41.45.754
+H:\Dev_Downloads\xxx\BlastMenuV3_WPVM\zDriver\zDriver.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1.
+  Assembling DispatchHook.asm...
+  main.cpp
+  Utils.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  zDriver.vcxproj -> H:\Dev_Downloads\xxx\BlastMenuV3_WPVM\x64\Release\zDriver.sys
+  Done Adding Additional Store
+  Successfully signed: H:\Dev_Downloads\xxx\BlastMenuV3_WPVM\x64\Release\zDriver.sys
+  
+  Driver is 'Universal'.
